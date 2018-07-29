@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8151b58-d28f-404f-a7c1-dbc8d6ffbbd4" name="Default" comment="" />
+    <list default="true" id="e8151b58-d28f-404f-a7c1-dbc8d6ffbbd4" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../pytorch_examples/.idea/deep_learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pytorch_examples/.idea/pytorch_examples.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pytorch_examples/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pytorch_examples/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -142,7 +145,7 @@
   </component>
   <component name="RunManager" selected="Python.LSTM_2_Part_of_Speech_Tagging">
     <configuration name="LSTM_1_intro" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="deep_learning" />
+      <module name="pytorch_examples" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -160,7 +163,7 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="LSTM_2_Part_of_Speech_Tagging" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="deep_learning" />
+      <module name="pytorch_examples" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -178,7 +181,7 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="NLP_intro" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="deep_learning" />
+      <module name="pytorch_examples" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -196,7 +199,7 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="word_embedding" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="deep_learning" />
+      <module name="pytorch_examples" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -214,7 +217,7 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="word_embedding_2_exercise" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="deep_learning" />
+      <module name="pytorch_examples" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -259,10 +262,19 @@
       <option name="presentableId" value="Default" />
       <updated>1532517583987</updated>
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1532883906121</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1532883906121</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="186" y="57" width="911" height="751" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.43798023" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -285,6 +297,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -338,6 +354,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
           <caret line="47" column="25" lean-forward="true" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -440,6 +459,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="101" column="36" lean-forward="true" selection-start-line="101" selection-start-column="36" selection-end-line="101" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -455,6 +477,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-104">
           <caret line="48" column="16" lean-forward="true" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

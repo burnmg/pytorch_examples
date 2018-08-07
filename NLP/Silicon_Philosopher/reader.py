@@ -44,13 +44,19 @@ class Corpus(object):
                 idxs_list.append(sentence_idxs)
                 idxs_lengths.append(len(words))
 
-        padded_idxs = nn.utils.rnn.pad_sequence(idxs_list, batch_first=True)
+        padded_idxs = nn.utils.rnn.pad_sequence(idxs_list, batch_first=True) # pad the idxs of sentences so they can be in the same length.
         return padded_idxs, idxs_lengths
 
-
+# TODO continue the work on the model
+# testing code
+'''
 # path = "/Users/rl/PycharmProjects/pytorch_examples/NLP/Silicon_Philosopher/data/quotes_dataset.txt"
 path = '/Users/rl/PycharmProjects/pytorch_examples/NLP/Silicon_Philosopher/data/small_data'
 c = Corpus(path)
 
 print(c.idxs)
+embedding = nn.Embedding(len(c.word2idx), 100, padding_idx=0)
+output = embedding(c.idxs)
+'''
+
 
